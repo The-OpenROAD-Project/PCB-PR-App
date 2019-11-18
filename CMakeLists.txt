@@ -57,10 +57,3 @@ ExternalProject_Add(kicadparser
   DOWNLOAD_COMMAND ""
   INSTALL_COMMAND ""
 )
-#add_subdirectory(${PCBPLACER_HOME} EXCLUDE_FROM_ALL)
-#add_subdirectory(${PCBROUTER_HOME} EXCLUDE_FROM_ALL)
-#add_subdirectory(${KICADPARSER_HOME} EXCLUDE_FROM_ALL)
-
-############################################################
-# Install
-############################################################
