@@ -1,0 +1,12 @@
+[submodule "module/PcbRouter"]
+	path = module/PcbRouter
+	url = https://github.com/The-OpenROAD-Project/PcbRouter.git
+[submodule "module/KicadParser"]
+	path = module/KicadParser
+	url = https://github.com/The-OpenROAD-Project/KicadParser.git
+[submodule "module/SA-PCB"]
+	path = module/SA-PCB
+	url = https://github.com/The-OpenROAD-Project/SA-PCB.git
+[submodule "module/PCBBenchmarks"]
+	path = module/PCBBenchmarks
+	url = https://github.com/djmerrill/PCBBenchmarks.git
