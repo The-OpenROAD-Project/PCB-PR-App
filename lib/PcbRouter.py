@@ -85,6 +85,10 @@ class GridBasedRouter(_object):
     def testRouterWithRipUpAndReroute(self): return _PcbRouter.GridBasedRouter_testRouterWithRipUpAndReroute(self)
     def testRouterWithPinShape(self): return _PcbRouter.GridBasedRouter_testRouterWithPinShape(self)
     def outputResults2KiCadFile(self, *args): return _PcbRouter.GridBasedRouter_outputResults2KiCadFile(self, *args)
+    def setInputScale(self, *args): return _PcbRouter.GridBasedRouter_setInputScale(self, *args)
+    def setNumRipUpReRouteIteration(self, *args): return _PcbRouter.GridBasedRouter_setNumRipUpReRouteIteration(self, *args)
+    def setEnlargeBoundary(self, *args): return _PcbRouter.GridBasedRouter_setEnlargeBoundary(self, *args)
+    def setLayerChangeCost(self, *args): return _PcbRouter.GridBasedRouter_setLayerChangeCost(self, *args)
 GridBasedRouter_swigregister = _PcbRouter.GridBasedRouter_swigregister
 GridBasedRouter_swigregister(GridBasedRouter)
 

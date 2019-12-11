@@ -90,7 +90,11 @@ class kicadPcbDataBase(_object):
     def printUnconnectedPins(self): return _PcbDB.kicadPcbDataBase_printUnconnectedPins(self)
     def printKiCad(self, folderName="", fileNameStamp=""): return _PcbDB.kicadPcbDataBase_printKiCad(self, folderName, fileNameStamp)
     def printNodes(self): return _PcbDB.kicadPcbDataBase_printNodes(self)
+    def printLockedInst(self): return _PcbDB.kicadPcbDataBase_printLockedInst(self)
+    def printDesignStatistics(self): return _PcbDB.kicadPcbDataBase_printDesignStatistics(self)
+    def printRoutedSegmentsWLAndNumVias(self): return _PcbDB.kicadPcbDataBase_printRoutedSegmentsWLAndNumVias(self)
     def buildKicadPcb(self): return _PcbDB.kicadPcbDataBase_buildKicadPcb(self)
+    def removeRoutedSegmentsAndVias(self): return _PcbDB.kicadPcbDataBase_removeRoutedSegmentsAndVias(self)
     def getPcbRouterInfo(self, *args): return _PcbDB.kicadPcbDataBase_getPcbRouterInfo(self, *args)
     def getPinShapeRelativeCoordsToModule(self, *args): return _PcbDB.kicadPcbDataBase_getPinShapeRelativeCoordsToModule(self, *args)
     def getPinPosition(self, *args): return _PcbDB.kicadPcbDataBase_getPinPosition(self, *args)
@@ -120,6 +124,7 @@ class kicadPcbDataBase(_object):
     def getBoardBoundary(self): return _PcbDB.kicadPcbDataBase_getBoardBoundary(self)
     def addClearanceDrc(self, *args): return _PcbDB.kicadPcbDataBase_addClearanceDrc(self, *args)
     def printClearanceDrc(self): return _PcbDB.kicadPcbDataBase_printClearanceDrc(self)
+    def getInstancesCount(self): return _PcbDB.kicadPcbDataBase_getInstancesCount(self)
 kicadPcbDataBase_swigregister = _PcbDB.kicadPcbDataBase_swigregister
 kicadPcbDataBase_swigregister(kicadPcbDataBase)
 
