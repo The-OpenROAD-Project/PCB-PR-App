@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/chholtz/tst/tst2/PCB-PR-App/build/CMakeFiles/pcbrouter"
+		},
+		{
+			"file" : "/home/chholtz/tst/tst2/PCB-PR-App/build/CMakeFiles/pcbrouter.rule"
+		},
+		{
+			"file" : "/home/chholtz/tst/tst2/PCB-PR-App/build/CMakeFiles/pcbrouter-complete.rule"
+		},
+		{
+			"file" : "/home/chholtz/tst/tst2/PCB-PR-App/module/PcbRouter/src/pcbrouter-stamp/pcbrouter-install.rule"
+		},
+		{
+			"file" : "/home/chholtz/tst/tst2/PCB-PR-App/module/PcbRouter/src/pcbrouter-stamp/pcbrouter-mkdir.rule"
+		},
+		{
+			"file" : "/home/chholtz/tst/tst2/PCB-PR-App/module/PcbRouter/src/pcbrouter-stamp/pcbrouter-download.rule"
+		},
+		{
+			"file" : "/home/chholtz/tst/tst2/PCB-PR-App/module/PcbRouter/src/pcbrouter-stamp/pcbrouter-update.rule"
+		},
+		{
+			"file" : "/home/chholtz/tst/tst2/PCB-PR-App/module/PcbRouter/src/pcbrouter-stamp/pcbrouter-patch.rule"
+		},
+		{
+			"file" : "/home/chholtz/tst/tst2/PCB-PR-App/module/PcbRouter/src/pcbrouter-stamp/pcbrouter-configure.rule"
+		},
+		{
+			"file" : "/home/chholtz/tst/tst2/PCB-PR-App/module/PcbRouter/src/pcbrouter-stamp/pcbrouter-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pcbrouter"
+		],
+		"name" : "pcbrouter"
+	}
+}

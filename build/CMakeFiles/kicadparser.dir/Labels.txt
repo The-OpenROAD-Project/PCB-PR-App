@@ -1,0 +1,13 @@
+# Target labels
+ kicadparser
+# Source files and their labels
+/home/chholtz/tst/tst2/PCB-PR-App/build/CMakeFiles/kicadparser
+/home/chholtz/tst/tst2/PCB-PR-App/build/CMakeFiles/kicadparser.rule
+/home/chholtz/tst/tst2/PCB-PR-App/build/CMakeFiles/kicadparser-complete.rule
+/home/chholtz/tst/tst2/PCB-PR-App/module/KicadParser/src/kicadparser-stamp/kicadparser-install.rule
+/home/chholtz/tst/tst2/PCB-PR-App/module/KicadParser/src/kicadparser-stamp/kicadparser-mkdir.rule
+/home/chholtz/tst/tst2/PCB-PR-App/module/KicadParser/src/kicadparser-stamp/kicadparser-download.rule
+/home/chholtz/tst/tst2/PCB-PR-App/module/KicadParser/src/kicadparser-stamp/kicadparser-update.rule
+/home/chholtz/tst/tst2/PCB-PR-App/module/KicadParser/src/kicadparser-stamp/kicadparser-patch.rule
+/home/chholtz/tst/tst2/PCB-PR-App/module/KicadParser/src/kicadparser-stamp/kicadparser-configure.rule
+/home/chholtz/tst/tst2/PCB-PR-App/module/KicadParser/src/kicadparser-stamp/kicadparser-build.rule

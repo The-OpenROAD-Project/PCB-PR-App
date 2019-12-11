@@ -1,0 +1,13 @@
+# Target labels
+ pcbrouter
+# Source files and their labels
+/home/chholtz/tst/tst2/PCB-PR-App/build/CMakeFiles/pcbrouter
+/home/chholtz/tst/tst2/PCB-PR-App/build/CMakeFiles/pcbrouter.rule
+/home/chholtz/tst/tst2/PCB-PR-App/build/CMakeFiles/pcbrouter-complete.rule
+/home/chholtz/tst/tst2/PCB-PR-App/module/PcbRouter/src/pcbrouter-stamp/pcbrouter-install.rule
+/home/chholtz/tst/tst2/PCB-PR-App/module/PcbRouter/src/pcbrouter-stamp/pcbrouter-mkdir.rule
+/home/chholtz/tst/tst2/PCB-PR-App/module/PcbRouter/src/pcbrouter-stamp/pcbrouter-download.rule
+/home/chholtz/tst/tst2/PCB-PR-App/module/PcbRouter/src/pcbrouter-stamp/pcbrouter-update.rule
+/home/chholtz/tst/tst2/PCB-PR-App/module/PcbRouter/src/pcbrouter-stamp/pcbrouter-patch.rule
+/home/chholtz/tst/tst2/PCB-PR-App/module/PcbRouter/src/pcbrouter-stamp/pcbrouter-configure.rule
+/home/chholtz/tst/tst2/PCB-PR-App/module/PcbRouter/src/pcbrouter-stamp/pcbrouter-build.rule

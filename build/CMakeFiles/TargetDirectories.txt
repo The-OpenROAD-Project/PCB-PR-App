@@ -1,0 +1,5 @@
+/home/chholtz/tst/tst2/PCB-PR-App/build/CMakeFiles/edit_cache.dir
+/home/chholtz/tst/tst2/PCB-PR-App/build/CMakeFiles/kicadparser.dir
+/home/chholtz/tst/tst2/PCB-PR-App/build/CMakeFiles/pcbrouter.dir
+/home/chholtz/tst/tst2/PCB-PR-App/build/CMakeFiles/rebuild_cache.dir
+/home/chholtz/tst/tst2/PCB-PR-App/build/CMakeFiles/pcbplacer.dir

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/chholtz/tst/tst2/PCB-PR-App/build/CMakeFiles/pcbplacer"
+		},
+		{
+			"file" : "/home/chholtz/tst/tst2/PCB-PR-App/build/CMakeFiles/pcbplacer.rule"
+		},
+		{
+			"file" : "/home/chholtz/tst/tst2/PCB-PR-App/build/CMakeFiles/pcbplacer-complete.rule"
+		},
+		{
+			"file" : "/home/chholtz/tst/tst2/PCB-PR-App/module/SA-PCB/src/pcbplacer-stamp/pcbplacer-install.rule"
+		},
+		{
+			"file" : "/home/chholtz/tst/tst2/PCB-PR-App/module/SA-PCB/src/pcbplacer-stamp/pcbplacer-mkdir.rule"
+		},
+		{
+			"file" : "/home/chholtz/tst/tst2/PCB-PR-App/module/SA-PCB/src/pcbplacer-stamp/pcbplacer-download.rule"
+		},
+		{
+			"file" : "/home/chholtz/tst/tst2/PCB-PR-App/module/SA-PCB/src/pcbplacer-stamp/pcbplacer-update.rule"
+		},
+		{
+			"file" : "/home/chholtz/tst/tst2/PCB-PR-App/module/SA-PCB/src/pcbplacer-stamp/pcbplacer-patch.rule"
+		},
+		{
+			"file" : "/home/chholtz/tst/tst2/PCB-PR-App/module/SA-PCB/src/pcbplacer-stamp/pcbplacer-configure.rule"
+		},
+		{
+			"file" : "/home/chholtz/tst/tst2/PCB-PR-App/module/SA-PCB/src/pcbplacer-stamp/pcbplacer-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pcbplacer"
+		],
+		"name" : "pcbplacer"
+	}
+}
