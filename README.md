@@ -38,6 +38,14 @@ python
 >>> import PcbDB, PcbRouter, PcbPlacer
 ````
 
+alternatively, call the test python placement program:
+
+```
+mv test_flow.py lib/
+cd lib/
+python test_flow.py
+```
+
 have fun!
 
 ## Running the tests

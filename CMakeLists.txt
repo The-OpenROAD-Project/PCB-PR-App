@@ -57,3 +57,7 @@ ExternalProject_Add(kicadparser
   DOWNLOAD_COMMAND ""
   INSTALL_COMMAND ""
 )
+add_custom_command(OUTPUT so.stamp
+        POST_BUILD
+        COMMAND /bin/sh ${PROJECT_SOURCE_DIR}/create_shared_objs.sh
+        )
