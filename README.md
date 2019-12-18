@@ -10,40 +10,14 @@ Top-level app for PCB P&R flow
 
 ### Installing
 
-create a top-level bin directory
-
+Run the build script:
 ```
-mkdir bin
-cd bin.
+source build.sh
 ```
 
-run cmake and make to build submodules
-
+Run the test script:
 ```
-cmake ..
-make
-````
-
-compile shared objects and swig libraries
-
-```
-sh create_shared_obs.sh 
-````
-
-ensure you can import the libraries
-
-```
-cd lib
-python
->>> import PcbDB, PcbRouter, PcbPlacer
-````
-
-alternatively, call the test python placement program:
-
-```
-mv test_flow.py lib/
-cd lib/
-python test_flow.py
+python3 test_flow.py
 ```
 
 have fun!
@@ -52,9 +26,9 @@ have fun!
 
 ## Current issues
 
-- Tested in CentOS 6
-- Linking shared object files after swig compilation currently fails on OSX
+- Tested on CentOS 6
+- Tested on Ubuntu 18.04
+- Linking shared object files after swig compilation currently fails on OSX. Docker is a good workaround on OSX.
 
 ## License
-
   * BSD-3-clause License [[Link]](LICENSE)
