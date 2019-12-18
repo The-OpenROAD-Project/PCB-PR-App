@@ -1,4 +1,5 @@
 build/*
+ucsdpcb/*
 lib/*
 bin/*
 module/*

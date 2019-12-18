@@ -1,8 +1,9 @@
 rm -r build
-rm -r lib
+rm -r ucsdpcb
 
 mkdir build
-mkdir lib
+mkdir ucsdpcb
+touch ucsd/__init__.py
 
 cd build
 cmake ..
