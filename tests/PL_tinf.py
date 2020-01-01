@@ -5,9 +5,9 @@ from ucsdpcb import PcbPlacer, PcbRouter, PcbDB
 db = PcbDB.kicadPcbDataBase('../module/PCBBenchmarks/bm9/bm9.routed.kicad_pcb')
 db.printNodes()
 placer = PcbPlacer.GridBasedPlacer(db)
-placer.set_inner_iter(1)
-placer.set_outer_iter(1)
-placer.set_init_tmp(99999999999)
+placer.set_num_iterations(1)
+placer.set_iterations_moves(1)
+placer.set_initial_temperature(99999999999)
 
 cost = 0
 cost_hist = [cost]

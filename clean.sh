@@ -20,7 +20,7 @@ rm -r ${PCBROUTERPATH}/bin/*
 rm -r ${PCBROUTERPATH}/build/*
 rm ${PCBROUTERPATH}/src/pcbrouter-stamp/*
 rm ${PCBROUTERPATH}/src/PcbRouter_wrapper.cpp
-rm ${PCBROUTERPATH}/src/PcbRoute.py
+rm ${PCBROUTERPATH}/src/PcbRouter.py
 
 rm ${KICADDBPATH}/tmp/*
 rm -r ${KICADDBPATH}/bin/*
