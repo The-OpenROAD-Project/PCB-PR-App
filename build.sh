@@ -3,7 +3,7 @@ rm -r ucsdpcb
 
 mkdir build
 mkdir ucsdpcb
-touch ucsd/__init__.py
+touch ucsdpcb/__init__.py
 
 cd build
 cmake ..

@@ -125,6 +125,7 @@ class kicadPcbDataBase(_object):
     def addClearanceDrc(self, *args) -> "void" : return _PcbDB.kicadPcbDataBase_addClearanceDrc(self, *args)
     def printClearanceDrc(self) -> "void" : return _PcbDB.kicadPcbDataBase_printClearanceDrc(self)
     def getInstancesCount(self) -> "int" : return _PcbDB.kicadPcbDataBase_getInstancesCount(self)
+    def getLargestClearance(self) -> "double" : return _PcbDB.kicadPcbDataBase_getLargestClearance(self)
 kicadPcbDataBase_swigregister = _PcbDB.kicadPcbDataBase_swigregister
 kicadPcbDataBase_swigregister(kicadPcbDataBase)
 

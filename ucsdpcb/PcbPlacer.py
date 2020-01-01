@@ -84,11 +84,17 @@ class GridBasedPlacer(_object):
     __swig_setmethods__["mDb"] = _PcbPlacer.GridBasedPlacer_mDb_set
     __swig_getmethods__["mDb"] = _PcbPlacer.GridBasedPlacer_mDb_get
     if _newclass:mDb = _swig_property(_PcbPlacer.GridBasedPlacer_mDb_get, _PcbPlacer.GridBasedPlacer_mDb_set)
-    def set_congestion_cost(self, *args) -> "void" : return _PcbPlacer.GridBasedPlacer_set_congestion_cost(self, *args)
-    def set_wl_cost(self, *args) -> "void" : return _PcbPlacer.GridBasedPlacer_set_wl_cost(self, *args)
-    def set_inner_iter(self, *args) -> "void" : return _PcbPlacer.GridBasedPlacer_set_inner_iter(self, *args)
-    def set_outer_iter(self, *args) -> "void" : return _PcbPlacer.GridBasedPlacer_set_outer_iter(self, *args)
-    def set_init_tmp(self, *args) -> "void" : return _PcbPlacer.GridBasedPlacer_set_init_tmp(self, *args)
+    def get_total_cost(self) -> "double" : return _PcbPlacer.GridBasedPlacer_get_total_cost(self)
+    def get_wirelength_cost(self) -> "double" : return _PcbPlacer.GridBasedPlacer_get_wirelength_cost(self)
+    def get_overlap_cost(self) -> "double" : return _PcbPlacer.GridBasedPlacer_get_overlap_cost(self)
+    def get_temperature(self) -> "double" : return _PcbPlacer.GridBasedPlacer_get_temperature(self)
+    def set_overlap_weight(self, *args) -> "void" : return _PcbPlacer.GridBasedPlacer_set_overlap_weight(self, *args)
+    def set_wirelength_weight(self, *args) -> "void" : return _PcbPlacer.GridBasedPlacer_set_wirelength_weight(self, *args)
+    def set_initial_move_radius(self, *args) -> "void" : return _PcbPlacer.GridBasedPlacer_set_initial_move_radius(self, *args)
+    def set_rtree(self, *args) -> "void" : return _PcbPlacer.GridBasedPlacer_set_rtree(self, *args)
+    def set_iterations_moves(self, *args) -> "void" : return _PcbPlacer.GridBasedPlacer_set_iterations_moves(self, *args)
+    def set_num_iterations(self, *args) -> "void" : return _PcbPlacer.GridBasedPlacer_set_num_iterations(self, *args)
+    def set_initial_temperature(self, *args) -> "void" : return _PcbPlacer.GridBasedPlacer_set_initial_temperature(self, *args)
 GridBasedPlacer_swigregister = _PcbPlacer.GridBasedPlacer_swigregister
 GridBasedPlacer_swigregister(GridBasedPlacer)
 
