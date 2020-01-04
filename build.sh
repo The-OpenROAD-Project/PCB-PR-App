@@ -4,6 +4,7 @@ rm -r ucsdpcb
 mkdir build
 mkdir ucsdpcb
 touch ucsdpcb/__init__.py
+cp util/check_output.py ucsdpcb
 
 cd build
 cmake ..

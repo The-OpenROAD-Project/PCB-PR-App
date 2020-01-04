@@ -6,12 +6,13 @@ from difflib import SequenceMatcher
 db = PcbDB.kicadPcbDataBase('../module/PCBBenchmarks/bm9/bm9.routed.kicad_pcb')
 db.printKiCad(folderName='./cache', fileNameStamp="0")
 postfix = "bm9.routed.kicad_pcb"
-for i in range(1,250):
+for i in range(1,10):
   prefix = "./cache/output." + str(i-1) + "."
   fname = prefix + postfix
+  print(fname)
   db = PcbDB.kicadPcbDataBase(fname)
   db.printKiCad(folderName='./cache', fileNameStamp=str(i))
-  if i > 100:
+  if i > 5:
       prevprefix = "./cache/output." + str(i-2) +"."
       prevfname = prevprefix + postfix
       text1 = open(fname).read()
