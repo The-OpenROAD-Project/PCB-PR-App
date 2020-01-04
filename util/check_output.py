@@ -1,6 +1,6 @@
 from nltk import Tree
 
-def check_output(fname):
+def check_output(fname):  
     def postprocess_layer(t, cur_layer=""):
         if len(t) == 0 or isinstance(t, str):
             return
@@ -26,12 +26,12 @@ def check_output(fname):
 
     # read file into tree structure
     print('reading ' + fname)
-    s = open(fname, 'r').read().replace('\n','')
-    t = Tree.fromstring(s)
+    s = open(fname, 'r').read()
+    t = Tree.fromstring(s,leaf_pattern="\".*\"|[^\s]+")
 
     postprocess_layer(t)
 
-    print('writing ' + './checked.'+fname,)
+    print('writing ' + './checked.'+fname)
     # write tree to file
     with open('./checked.'+fname,'w') as f:
         f.write(str(t))
