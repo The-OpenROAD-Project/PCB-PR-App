@@ -5,6 +5,10 @@ Top-level app for PCB P&R flow
 ### Prerequisites
 
 - GCC >=4.8
+- G++ >= 4.8
+```
+export CXX=g++
+```
 - SWIG >= 2.0
 ```
 sudo apt-get update
