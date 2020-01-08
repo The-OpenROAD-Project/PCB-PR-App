@@ -10,8 +10,14 @@ Top-level app for PCB P&R flow
 
 ### Installing
 
+Clone
+```
+git clone --recurse-submodules https://github.com/The-OpenROAD-Project/PCB-PR-App.git
+```
+
 Run the build script:
 ```
+cd PCB-PR-App
 source build.sh
 ```
 
