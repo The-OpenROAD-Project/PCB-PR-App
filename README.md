@@ -50,7 +50,7 @@ Have fun!
 ## Current issues
 
 - Tested on CentOS 6
-- Tested on Ubuntu 18.04 (Ubuntu 16.04 doesn't come with Python 3.)
+- Tested on Ubuntu 18.04 (Ubuntu 16.04 doesn't come with Python 3)
 - Linking shared object files after swig compilation currently fails on OSX. Docker is a good workaround on OSX.
 
 ## License
