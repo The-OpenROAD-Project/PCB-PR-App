@@ -2,7 +2,7 @@ import sys
 sys.path.append("../")
 from ucsdpcb import PcbPlacer, PcbRouter, PcbDB
 
-db = PcbDB.kicadPcbDataBase('../module/PCBBenchmarks/bm9/bm9.routed.kicad_pcb')
+db = PcbDB.kicadPcbDataBase('./')
 db.printNodes()
 placer = PcbPlacer.GridBasedPlacer(db)
 placer.set_num_iterations(601)
