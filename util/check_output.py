@@ -1,7 +1,7 @@
 from nltk import Tree
 
 def check_output(fname):  
-    def postprocess_layer(t, cur_layer=""):
+    def postprocess_layer(t, cur_layer="", cur_rot=0):
         if len(t) == 0 or isinstance(t, str):
             return
 
@@ -12,6 +12,8 @@ def check_output(fname):
                     continue
                 elif c.label() == "layer":
                     cur_layer = c[0]
+                elif  c.label() == "at"
+                    cur_rot = c[-1]
         elif t.label() == "pad": # if pad, set the layer to cur layer
             for c in t:
                 if isinstance(c, str):
@@ -21,8 +23,10 @@ def check_output(fname):
                     for i,cc in enumerate(c):
                         if cc == "Top" or cc == "Bottom":
                             c[i] = cur_layer
+                elif c.label() == "at":
+                    c[-1] = (c[-1]) % 360
         for c in t:
-            postprocess_layer(c, cur_layer)
+            postprocess_layer(c, cur_layer, cur_rot)
 
     # read file into tree structure
     print('reading ' + fname)
