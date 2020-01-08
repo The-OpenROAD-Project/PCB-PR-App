@@ -7,6 +7,7 @@ Top-level app for PCB P&R flow
 - GCC >=4.8
 - SWIG >= 2.0
 - Boost >= 1.6
+- CMake >= 3.1
 
 ### Installing
 
