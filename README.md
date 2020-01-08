@@ -24,6 +24,7 @@ sudo apt-get install libboost-all-dev
 sudo apt-get update
 sudo apt-get install cmake
 ```
+- Current support for kicad_pcb format derived from KiCad v5.1.2
 
 ### Installing
 
