@@ -6,8 +6,20 @@ Top-level app for PCB P&R flow
 
 - GCC >=4.8
 - SWIG >= 2.0
+```
+sudo apt-get update
+sudo apt-get install swig
+```
 - Boost >= 1.6
+```
+sudo apt-get update
+sudo apt-get install libboost-all-dev
+```
 - CMake >= 3.1
+```
+sudo apt-get update
+sudo apt-get install cmake
+```
 
 ### Installing
 
@@ -27,7 +39,7 @@ Run the test script:
 python3 test_flow.py
 ```
 
-have fun!
+Have fun!
 
 ## Running the tests
 
