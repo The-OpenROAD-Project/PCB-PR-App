@@ -39,9 +39,9 @@ cd PCB-PR-App
 source build.sh
 ```
 
-Run the test script:
+The layout app is now available:
 ```
-python3 test_flow.py
+python3 run_layout.py --help
 ```
 
 Have fun!
