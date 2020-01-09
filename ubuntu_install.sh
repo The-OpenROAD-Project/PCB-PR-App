@@ -8,7 +8,5 @@ sudo apt-get install -y libboost-all-dev
 sudo apt-get install -y cmake
 sudo apt install -y python3-pip
 pip3 install docopt
-cd PCB-PR-App
 source clean.sh
 source build.sh
-cd ..
