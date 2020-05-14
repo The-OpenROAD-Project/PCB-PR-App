@@ -1,4 +1,4 @@
-#set -e
+set -e # exit immediately on failure
 
 echo "Running tests .."
 echo "================"
