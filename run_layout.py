@@ -17,7 +17,9 @@ Options:
 
 from docopt import docopt
 
-from ucsdpcb import PcbPlacer, PcbRouter, PcbDB
+from ucsdpcb import PcbPlacer
+from ucsdpcb import PcbRouter
+from ucsdpcb import PcbDB
 
 
 def main(arguments):
