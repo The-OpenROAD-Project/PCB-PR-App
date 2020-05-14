@@ -1,4 +1,6 @@
 echo "Installing"
 pwd
 ls
-source ./PCB-PR-App/ubuntu_install.sh
+pushd ./PCB-PR-App/
+source ./ubuntu_install.sh
+popd
