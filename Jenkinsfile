@@ -10,6 +10,9 @@ pipeline {
     stage('Test') {
       steps {
         sh 'echo "Testing"'
+        sh 'ls'
+        sh 'ls modules'
+        sh 'ls modules/KicadParser'
       }
     }
 
