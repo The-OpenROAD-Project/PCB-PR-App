@@ -11,8 +11,8 @@ pipeline {
       steps {
         sh 'echo "Testing"'
         sh 'ls'
-        sh 'ls modules'
-        sh 'ls modules/KicadParser'
+        sh 'ls module'
+        sh 'ls module/KicadParser'
       }
     }
 
