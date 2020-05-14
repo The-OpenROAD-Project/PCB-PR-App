@@ -4,6 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         sh 'echo "Building"'
+        sh './jenkins/build.sh'
       }
     }
 
@@ -13,6 +14,7 @@ pipeline {
         sh 'ls'
         sh 'ls module'
         sh 'ls module/KicadParser'
+        sh './jenkins/test.sh'
       }
     }
 
