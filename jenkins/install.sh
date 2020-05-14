@@ -1,2 +1,2 @@
 echo "Installing"
-source ubuntu_install.sh
+source /PCB-PR-App/ubuntu_install.sh
