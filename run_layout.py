@@ -8,7 +8,6 @@ Options:
     --skip_placement  Don't run autoplacement.
     -p PITER          Placement iterations [default: 1000].
     -m MOVES          Moves per placement iteration [default: 25].
-    -g GRID           Routing grid scale [default: 20].
     -r RITERS         Ripup and reroute iterations [default: 2].
     -e ENLARGE        Enlarge board boundary for routing [default: 0].
     -l CHANGEW        Layer change weight for routing [default: 1000].
@@ -28,6 +27,7 @@ def main(arguments):
     print('Loading database...')
     db = PcbDB.kicadPcbDataBase(arguments['KICAD_PCB'])
     db.printNodes()
+    db.removeRoutedSegmentsAndVias()
 
     if not arguments['--skip_placement']:
         placer = PcbPlacer.GridBasedPlacer(db)
@@ -42,7 +42,6 @@ def main(arguments):
 
     router = PcbRouter.GridBasedRouter(db)
     router.initialization()
-    router.set_grid_scale(arguments['-g'])
     router.set_num_iterations(arguments['-r'])
     router.set_enlarge_boundary(arguments['-e'])
     router.set_layer_change_weight(arguments['-l'])
@@ -56,7 +55,6 @@ if __name__ == '__main__':
     arguments = docopt(__doc__, version='0.1')
     arguments['-p'] = int(arguments['-p'])
     arguments['-m'] = int(arguments['-m'])
-    arguments['-g'] = int(arguments['-g'])
     arguments['-r'] = int(arguments['-r'])
     arguments['-e'] = int(arguments['-e'])
     arguments['-l'] = int(arguments['-l'])
