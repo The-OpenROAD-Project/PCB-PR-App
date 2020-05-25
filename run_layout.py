@@ -41,6 +41,7 @@ def main(arguments):
         db.printKiCad()
 
     router = PcbRouter.GridBasedRouter(db)
+    router.initialization()
     router.set_grid_scale(arguments['-g'])
     router.set_num_iterations(arguments['-r'])
     router.set_enlarge_boundary(arguments['-e'])
