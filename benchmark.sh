@@ -12,6 +12,6 @@ time python3 run_layout.py PCBBenchmarks/bm8/bm8.routed.kicad_pcb > bm8.log &
 time python3 run_layout.py PCBBenchmarks/bm9/bm9.routed.kicad_pcb > bm9.log &
 time python3 run_layout.py PCBBenchmarks/bm10/bm10.routed.kicad_pcb > bm10.log &
 time python3 run_layout.py PCBBenchmarks/bm11/bm11.routed.kicad_pcb > bm11.log &
-time python3 run_layout.py PCBBenchmarks/bm11/bm12.routed.kicad_pcb > bm12.log &
-time python3 run_layout.py PCBBenchmarks/bm11/bm13.routed.kicad_pcb > bm13.log &
+time python3 run_layout.py PCBBenchmarks/bm12/bm12.routed.kicad_pcb > bm12.log &
+time python3 run_layout.py PCBBenchmarks/bm13/bm13.routed.kicad_pcb > bm13.log &
 
