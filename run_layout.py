@@ -10,13 +10,15 @@ Usage:
 
 Options:
     --skip_placement  Don't run autoplacement.
-    -p PITER          Placement iterations [default: 4000].
+    -p PITER          Placement iterations [default: 2000].
     -m MOVES          Moves per placement iteration [default: 25].
     -r RITERS         Ripup and reroute iterations [default: 20].
     -e ENLARGE        Enlarge board boundary for routing [default: 0].
     -l CHANGEW        Layer change weight for routing [default: 1000].
 
 """
+
+import time
 
 from docopt import docopt
 
@@ -34,6 +36,7 @@ def main(arguments):
     db.removeRoutedSegmentsAndVias() # start without any previous routing
 
     if not arguments['--skip_placement']:
+        placement_start_time = time.time()
         placer = PcbPlacer.GridBasedPlacer(db)
         placer.set_num_iterations(arguments['-p'])
         placer.set_iterations_moves(arguments['-m'])
@@ -45,8 +48,10 @@ def main(arguments):
 
         print('Placing...')
         placer.test_placer_flow()
+        placement_end_time = time.time()
         db.printKiCad()
 
+    router_start_time = time.time()
     router = PcbRouter.GridBasedRouter(db)
     router.set_num_iterations(arguments['-r'])
     router.set_enlarge_boundary(arguments['-e'])
@@ -55,7 +60,25 @@ def main(arguments):
     print('Routing...')
     router.initialization() # must be the last call to router before route()
     router.route()
+    router_end_time = time.time()
     db.printKiCad()
+    if not arguments['--skip_placement']:
+        print(
+            'Placement finished in ' + 
+            str(placement_end_time - placement_start_time) + 
+            ' seconds (' + 
+            str(arguments['KICAD_PCB']) + 
+            ')'
+        )
+    print(
+        'Routing finished in ' +
+        str(router_end_time - router_start_time) +
+        ' seconds (' +
+        str(arguments['KICAD_PCB']) +
+        ', ' + 
+        str(arguments['-r']) + 
+        ' iteration)'
+    )  
 
 
 if __name__ == '__main__':
