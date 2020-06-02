@@ -4,7 +4,7 @@
 # git clone --recurse-submodules https://github.com/The-OpenROAD-Project/PCB-PR-App.git
 
 export CXX=g++
-./basic_depencencies.sh
+./basic_dependencies.sh
 pwd
 ls
 bash ./clean.sh
