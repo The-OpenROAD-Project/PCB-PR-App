@@ -1,0 +1,215 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Welcome to PCB-PR-App’s documentation! &#8212; PCB-PR-App  documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="welcome-to-pcb-pr-app-s-documentation">
+<h1>Welcome to PCB-PR-App’s documentation!<a class="headerlink" href="#welcome-to-pcb-pr-app-s-documentation" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<dl class="cpp class">
+<dt id="_CPPv415GridBasedPlacer">
+<span id="_CPPv315GridBasedPlacer"></span><span id="_CPPv215GridBasedPlacer"></span><span id="GridBasedPlacer"></span><em class="property">class </em><code class="sig-name descname">GridBasedPlacer</code><a class="headerlink" href="#_CPPv415GridBasedPlacer" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv417test_hplacer_flowv">
+<span id="_CPPv317test_hplacer_flowv"></span><span id="_CPPv217test_hplacer_flowv"></span><span id="test_hplacer_flow"></span>void <code class="sig-name descname">test_hplacer_flow</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv417test_hplacer_flowv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>This is the main function that runs placement.</p>
+</dd></dl>
+
+<div class="section" id="getters">
+<h2>Getters<a class="headerlink" href="#getters" title="Permalink to this headline">¶</a></h2>
+<dl class="cpp function">
+<dt id="_CPPv414get_total_costv">
+<span id="_CPPv314get_total_costv"></span><span id="_CPPv214get_total_costv"></span><span id="get_total_cost"></span>double <code class="sig-name descname">get_total_cost</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv414get_total_costv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Gets the total weighted cost (badness) of the current placement.</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv419get_wirelength_costv">
+<span id="_CPPv319get_wirelength_costv"></span><span id="_CPPv219get_wirelength_costv"></span><span id="get_wirelength_cost"></span>double <code class="sig-name descname">get_wirelength_cost</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv419get_wirelength_costv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Gets the total weighted cost of the wirelength.</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv416get_overlap_costv">
+<span id="_CPPv316get_overlap_costv"></span><span id="_CPPv216get_overlap_costv"></span><span id="get_overlap_cost"></span>double <code class="sig-name descname">get_overlap_cost</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv416get_overlap_costv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Gets the total weighted cost of overlap.</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv415get_temperaturev">
+<span id="_CPPv315get_temperaturev"></span><span id="_CPPv215get_temperaturev"></span><span id="get_temperature"></span>double <code class="sig-name descname">get_temperature</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv415get_temperaturev" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Gets the current temperature.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="setters">
+<h2>Setters<a class="headerlink" href="#setters" title="Permalink to this headline">¶</a></h2>
+<dl class="cpp function">
+<dt id="_CPPv412set_base_lamd">
+<span id="_CPPv312set_base_lamd"></span><span id="_CPPv212set_base_lamd"></span><span id="set_base_lam__double"></span>void <code class="sig-name descname">set_base_lam</code><span class="sig-paren">(</span>double <em>_lam</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv412set_base_lamd" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv49set_bb_ecb">
+<span id="_CPPv39set_bb_ecb"></span><span id="_CPPv29set_bb_ecb"></span><span id="set_bb_ec__b"></span>void <code class="sig-name descname">set_bb_ec</code><span class="sig-paren">(</span>bool <em>_bb</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv49set_bb_ecb" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv421set_wirelength_weightd">
+<span id="_CPPv321set_wirelength_weightd"></span><span id="_CPPv221set_wirelength_weightd"></span><span id="set_wirelength_weight__double"></span>void <code class="sig-name descname">set_wirelength_weight</code><span class="sig-paren">(</span>double <em>_cst</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv421set_wirelength_weightd" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv419set_lambda_scheduled">
+<span id="_CPPv319set_lambda_scheduled"></span><span id="_CPPv219set_lambda_scheduled"></span><span id="set_lambda_schedule__double"></span>void <code class="sig-name descname">set_lambda_schedule</code><span class="sig-paren">(</span>double <em>_lsched</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv419set_lambda_scheduled" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv413set_two_sidedb">
+<span id="_CPPv313set_two_sidedb"></span><span id="_CPPv213set_two_sidedb"></span><span id="set_two_sided__b"></span>void <code class="sig-name descname">set_two_sided</code><span class="sig-paren">(</span>bool <em>_2sided</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv413set_two_sidedb" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv423set_initial_move_radiusd">
+<span id="_CPPv323set_initial_move_radiusd"></span><span id="_CPPv223set_initial_move_radiusd"></span><span id="set_initial_move_radius__double"></span>void <code class="sig-name descname">set_initial_move_radius</code><span class="sig-paren">(</span>double <em>_eps</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv423set_initial_move_radiusd" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Sets the starting move radius. The move radius decreases automatically during placement.</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv49set_rtreeb">
+<span id="_CPPv39set_rtreeb"></span><span id="_CPPv29set_rtreeb"></span><span id="set_rtree__b"></span>void <code class="sig-name descname">set_rtree</code><span class="sig-paren">(</span>bool <em>_rt</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv49set_rtreeb" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Sets the usage of rtree data structure for detecting overlap. This can provide faster performance on large designs.</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv47set_lamb">
+<span id="_CPPv37set_lamb"></span><span id="_CPPv27set_lamb"></span><span id="set_lam__b"></span>void <code class="sig-name descname">set_lam</code><span class="sig-paren">(</span>bool <em>_lam</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv47set_lamb" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv418set_lamtemp_updated">
+<span id="_CPPv318set_lamtemp_updated"></span><span id="_CPPv218set_lamtemp_updated"></span><span id="set_lamtemp_update__double"></span>void <code class="sig-name descname">set_lamtemp_update</code><span class="sig-paren">(</span>double <em>_coef</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv418set_lamtemp_updated" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv418set_num_iterationsi">
+<span id="_CPPv318set_num_iterationsi"></span><span id="_CPPv218set_num_iterationsi"></span><span id="set_num_iterations__i"></span>void <code class="sig-name descname">set_num_iterations</code><span class="sig-paren">(</span>int <em>iter</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv418set_num_iterationsi" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Sets the number of annealing iterations (temperature updates).</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv420set_iterations_movesi">
+<span id="_CPPv320set_iterations_movesi"></span><span id="_CPPv220set_iterations_movesi"></span><span id="set_iterations_moves__i"></span>void <code class="sig-name descname">set_iterations_moves</code><span class="sig-paren">(</span>int <em>iter</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv420set_iterations_movesi" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Sets the number of moves per component during annealing. The total moves per temerature update will be this number times the number of components.</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv423set_initial_temperatured">
+<span id="_CPPv323set_initial_temperatured"></span><span id="_CPPv223set_initial_temperatured"></span><span id="set_initial_temperature__double"></span>void <code class="sig-name descname">set_initial_temperature</code><span class="sig-paren">(</span>double <em>tmp</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv423set_initial_temperatured" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="#">PCB-PR-App</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, OpenROAD Project, UC San Diego.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.4</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
