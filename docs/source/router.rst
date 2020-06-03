@@ -1,14 +1,17 @@
-API for PCB Router
-==================
+API for Router
+==============
 
 .. cpp:class:: GridBasedRouter
+
+This is the router class. You need an instance of this class to do routing.
 
 .. cpp:function:: GridBasedRouter::GridBasedRouter(kicadPcbDataBase &db)
 
 
 .. cpp:function:: void GridBasedRouter::initialization()
 
-  :func:`initialization` must be called before :func:`route`.
+  :func:`initialization` must be called before :func:`route`. 
+  Set routing parameters and options before calling this function.
 
 .. cpp:function:: void GridBasedRouter::route()
 

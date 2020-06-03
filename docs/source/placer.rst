@@ -1,5 +1,5 @@
-API for PCB Simulated Annealing Placer
-======================================
+API for Placer
+==============
 
 .. cpp:class:: GridBasedPlacer()
 
@@ -7,13 +7,14 @@ API for PCB Simulated Annealing Placer
 
 .. cpp:function:: void GridBasedPlacer::test_hplacer_flow()
 
-        This is the main function that runs placement.
+  This is the main function that runs placement.
 
 Getters
 ^^^^^^^
+
 .. cpp:function:: double GridBasedPlacer::get_total_cost()
 
-  Gets the total weighted cost (badness) of the current placement.
+  Gets the total weighted cost (badness) of the current solution.
 
 .. cpp:function:: double GridBasedPlacer::get_wirelength_cost()
 
@@ -29,6 +30,7 @@ Getters
 
 Setters
 ^^^^^^^
+
 .. cpp:function:: void GridBasedPlacer::set_base_lam(double _lam)
 .. cpp:function:: void GridBasedPlacer::set_bb_ec(bool _bb)
 

@@ -10,6 +10,7 @@ Welcome to PCB-PR-App's documentation!
    :maxdepth: 2
    :caption: Contents:
    
+   quickstart
    database
    placer
    router

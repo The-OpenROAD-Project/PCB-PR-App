@@ -1,5 +1,5 @@
-API for PCB Design Database
-===========================
+API for Database
+================
 
 .. cpp:class:: kicadPcbDataBase
 
