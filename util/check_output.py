@@ -2,7 +2,7 @@ from nltk import Tree
 
 def check_output(fname):  
     def postprocess_layer(t, cur_layer="", cur_rot=0):
-        if len(t) == 0 or isinstance(t, str):
+        if isinstance(t, str) or isinstance(t, float) or len(t) == 0:
             return
 
         # if current label is module, find the layer it's on
@@ -12,7 +12,7 @@ def check_output(fname):
                     continue
                 elif c.label() == "layer":
                     cur_layer = c[0]
-                elif  c.label() == "at"
+                elif  c.label() == "at":
                     cur_rot = c[-1]
         elif t.label() == "pad": # if pad, set the layer to cur layer
             for c in t:
@@ -24,7 +24,9 @@ def check_output(fname):
                         if cc == "Top" or cc == "Bottom":
                             c[i] = cur_layer
                 elif c.label() == "at":
-                    c[-1] = (c[-1]) % 360
+                    if len(c) < 3:
+                        continue
+                    c[-1] = float(c[-1]) % 360
         for c in t:
             postprocess_layer(c, cur_layer, cur_rot)
 

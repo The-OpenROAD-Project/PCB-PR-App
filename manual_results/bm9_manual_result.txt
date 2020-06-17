@@ -1,0 +1,147 @@
+(17.7934 10.847 2)
+=================test_placer==================
+/home/orange3xchicken/Documents/PCB-PR-App/module/PCBBenchmarks/bm9/bm9.routed.kicad_pcb
+calculating boundaries...
+138.455,98.2726 158.547,111.735
+name          "U1"
+idx           0
+Width         2.26
+Height        4.24
+Weight        684581216
+X_Co-ordinate 148.576
+Y_Co-ordinate 98.8434
+X/2           149.706
+Y/2           100.963
+Orientation   6
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          "U2"
+idx           1
+Width         2.26
+Height        4.24
+Weight        684581216
+X_Co-ordinate 150.837
+Y_Co-ordinate 98.8434
+X/2           151.967
+Y/2           100.963
+Orientation   6
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          "U3"
+idx           2
+Width         2.26
+Height        4.24
+Weight        684581216
+X_Co-ordinate 139.534
+Y_Co-ordinate 103.212
+X/2           140.664
+Y/2           105.332
+Orientation   2
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          "U4"
+idx           3
+Width         4.24
+Height        2.26
+Weight        684581216
+X_Co-ordinate 140.779
+Y_Co-ordinate 99.6556
+X/2           142.899
+Y/2           100.786
+Orientation   4
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          "U5"
+idx           4
+Width         6.4
+Height        6.4
+Weight        684581216
+X_Co-ordinate 141.959
+Y_Co-ordinate 102.107
+X/2           145.159
+Y/2           105.307
+Orientation   6
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          "U6"
+idx           5
+Width         2.4
+Height        4.4
+Weight        684581216
+X_Co-ordinate 148.379
+Y_Co-ordinate 106.51
+X/2           149.579
+Y/2           108.71
+Orientation   6
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          "U7"
+idx           6
+Width         2.4
+Height        4.4
+Weight        684581216
+X_Co-ordinate 150.64
+Y_Co-ordinate 106.485
+X/2           151.84
+Y/2           108.685
+Orientation   6
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          "U8"
+idx           7
+Width         3.9
+Height        10.4
+Weight        684581216
+X_Co-ordinate 154.233
+Y_Co-ordinate 99.802
+X/2           156.183
+Y/2           105.002
+Orientation   2
+terminal      0
+fixed         1
+layer         1
+throughhole   1
+NetList       
+
+initial cost: 
+cost: -nan wirelength: 110.219 inf overlap: 1.28602 inf congestion: 0 -nan
+annealing /home/orange3xchicken/Documents/PCB-PR-App/module/PCBBenchmarks/bm9/bm9.routed.kicad_pcb
+calculating initial params...
+calculating initial cost estimate...
+cost: 0.911325 wirelength: 171.527 0.565982 overlap: 251.735 0.345343 congestion: 0 -0
+beginning optimization...
+=====0=====
+iteration: 0 time: 1.22e-06 (s) updates/time: 0 time remaining: inf (s) temperature: 0.5 wl weight: 0.5 s samp: 0 sigma update: 0.985 acceptance rate: 0.5 lam rate: 0.5 entraped: 0
+cost: 0.911325 wirelength: 171.527 0.565982 overlap: 251.735 0.345343 congestion: 0 -0
+cost: 0.347354 wirelength: 110.219 0.345501 overlap: 1.28602 0.00185244 congestion: 0 -0
+cost: 0.352843 wirelength: 112.561 0.352843 overlap: 0 0 congestion: 0 -0
+Solution: overlap: 0 wirelength: 112.561
+writing back to db...

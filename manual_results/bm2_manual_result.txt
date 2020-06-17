@@ -1,0 +1,308 @@
+(48.8279 17.9324 2)
+=================test_placer==================
+/home/orange3xchicken/Documents/PCB-PR-App/module/PCBBenchmarks/bm2/bm2.routed.kicad_pcb
+calculating boundaries...
+123.176,93.6486 173.826,116.359
+name          X4
+idx           0
+Width         21.96
+Height        14.8
+Weight        2019366944
+X_Co-ordinate 156.252
+Y_Co-ordinate 97.856
+X/2           167.232
+Y/2           105.256
+Orientation   2
+terminal      0
+fixed         1
+layer         1
+throughhole   0
+NetList       
+
+name          SJ1
+idx           1
+Width         3.8
+Height        2.3
+Weight        2019366944
+X_Co-ordinate 152.924
+Y_Co-ordinate 97.8576
+X/2           154.824
+Y/2           99.0076
+Orientation   0
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          R2
+idx           2
+Width         1.7
+Height        3.4
+Weight        2019366944
+X_Co-ordinate 149.656
+Y_Co-ordinate 108.738
+X/2           150.506
+Y/2           110.438
+Orientation   6
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          R1
+idx           3
+Width         1.7
+Height        3.4
+Weight        2019366944
+X_Co-ordinate 151.053
+Y_Co-ordinate 108.738
+X/2           151.903
+Y/2           110.438
+Orientation   6
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          R3
+idx           4
+Width         1.7
+Height        3.4
+Weight        2019366944
+X_Co-ordinate 154.482
+Y_Co-ordinate 102.134
+X/2           155.332
+Y/2           103.834
+Orientation   6
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          R4
+idx           5
+Width         1.7
+Height        3.4
+Weight        2019366944
+X_Co-ordinate 154.482
+Y_Co-ordinate 105.182
+X/2           155.332
+Y/2           106.882
+Orientation   6
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          C1
+idx           6
+Width         3.34
+Height        1.7
+Weight        2019366944
+X_Co-ordinate 152.773
+Y_Co-ordinate 108.953
+X/2           154.443
+Y/2           109.803
+Orientation   4
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          C2
+idx           7
+Width         3.34
+Height        1.7
+Weight        2019366944
+X_Co-ordinate 146.296
+Y_Co-ordinate 109.588
+X/2           147.966
+Y/2           110.438
+Orientation   4
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          SW1
+idx           8
+Width         5.2
+Height        3.4508
+Weight        2019366944
+X_Co-ordinate 141.048
+Y_Co-ordinate 107.061
+X/2           143.648
+Y/2           108.787
+Orientation   4
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          IC1
+idx           9
+Width         7.6
+Height        5.2
+Weight        2019366944
+X_Co-ordinate 146.579
+Y_Co-ordinate 103.647
+X/2           150.379
+Y/2           106.247
+Orientation   6
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          Y1
+idx           10
+Width         11.7845
+Height        5.4532
+Weight        2019366944
+X_Co-ordinate 142.455
+Y_Co-ordinate 98.059
+X/2           148.347
+Y/2           100.786
+Orientation   0
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          JP2
+idx           11
+Width         40.8
+Height        2.4
+Weight        2019366944
+X_Co-ordinate 128.201
+Y_Co-ordinate 112.032
+X/2           148.601
+Y/2           113.232
+Orientation   4
+terminal      0
+fixed         1
+layer         1
+throughhole   0
+NetList       
+
+name          JP1
+idx           12
+Width         28.4
+Height        2.4
+Weight        2019366944
+X_Co-ordinate 140.751
+Y_Co-ordinate 95.7756
+X/2           154.951
+Y/2           96.9756
+Orientation   0
+terminal      0
+fixed         1
+layer         1
+throughhole   0
+NetList       
+
+name          B1
+idx           13
+Width         20.09
+Height        16.3
+Weight        2019366944
+X_Co-ordinate 123.189
+Y_Co-ordinate 95.5566
+X/2           133.234
+Y/2           103.707
+Orientation   0
+terminal      0
+fixed         1
+layer         1
+throughhole   0
+NetList       
+
+name          JP3
+idx           14
+Width         1.8764
+Height        1.8764
+Weight        2019366944
+X_Co-ordinate 141.313
+Y_Co-ordinate 98.1964
+X/2           142.251
+Y/2           99.1346
+Orientation   0
+terminal      0
+fixed         1
+layer         1
+throughhole   0
+NetList       
+
+name          SDCS
+idx           15
+Width         1.8764
+Height        1.8764
+Weight        2019366944
+X_Co-ordinate 154.648
+Y_Co-ordinate 100.355
+X/2           155.586
+Y/2           101.294
+Orientation   0
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          INT1
+idx           16
+Width         1.8764
+Height        1.8764
+Weight        2019366944
+X_Co-ordinate 142.964
+Y_Co-ordinate 105.181
+X/2           143.902
+Y/2           106.12
+Orientation   0
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          FID1
+idx           17
+Width         1.2
+Height        1.2
+Weight        2019366944
+X_Co-ordinate 169.972
+Y_Co-ordinate 100.948
+X/2           170.572
+Y/2           101.548
+Orientation   0
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+initial cost: 
+cost: -nan wirelength: 362.671 inf overlap: 125.458 inf congestion: 0 -nan
+annealing /home/orange3xchicken/Documents/PCB-PR-App/module/PCBBenchmarks/bm2/bm2.routed.kicad_pcb
+calculating initial params...
+calculating initial cost estimate...
+cost: 1.40684 wirelength: 492.625 0.459147 overlap: 5880.75 0.947698 congestion: 0 -0
+beginning optimization...
+=====0=====
+iteration: 0 time: 1.274e-06 (s) updates/time: 0 time remaining: inf (s) temperature: 0.5 wl weight: 0.5 s samp: 0 sigma update: 0.985 acceptance rate: 0.5 lam rate: 0.5 entraped: 0
+cost: 1.40684 wirelength: 492.625 0.459147 overlap: 5880.75 0.947698 congestion: 0 -0
+cost: 0.342352 wirelength: 362.671 0.321123 overlap: 125.458 0.0212289 congestion: 0 -0
+cost: 0.342352 wirelength: 362.671 0.321123 overlap: 125.458 0.0212289 congestion: 0 -0
+cost: 0.342352 wirelength: 362.671 0.321123 overlap: 125.458 0.0212289 congestion: 0 -0
+Solution: overlap: 125.458 wirelength: 362.671
+writing back to db...

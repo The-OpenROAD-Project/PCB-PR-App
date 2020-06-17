@@ -1,0 +1,598 @@
+(52.1148 83.3863 2)
+=================test_placer==================
+/home/orange3xchicken/Documents/PCB-PR-App/module/PCBBenchmarks/bm10/bm10.routed.kicad_pcb
+calculating boundaries...
+120.46,61.976 176.543,148.031
+name          U23
+idx           0
+Width         4.9
+Height        11
+Weight        698226896
+X_Co-ordinate 143.192
+Y_Co-ordinate 62.5704
+X/2           145.642
+Y/2           68.0704
+Orientation   2
+terminal      0
+fixed         0
+layer         1
+throughhole   1
+NetList       
+
+name          U26
+idx           1
+Width         10.95
+Height        15.22
+Weight        698226896
+X_Co-ordinate 123.505
+Y_Co-ordinate 62.4416
+X/2           128.98
+Y/2           70.0516
+Orientation   4
+terminal      0
+fixed         1
+layer         1
+throughhole   0
+NetList       
+
+name          U18
+idx           2
+Width         13.1
+Height        31.6
+Weight        698226896
+X_Co-ordinate 121.363
+Y_Co-ordinate 116.075
+X/2           127.913
+Y/2           131.875
+Orientation   2
+terminal      0
+fixed         1
+layer         1
+throughhole   0
+NetList       
+
+name          U1
+idx           3
+Width         18.4
+Height        51.4
+Weight        698226896
+X_Co-ordinate 151.42
+Y_Co-ordinate 77.9609
+X/2           160.62
+Y/2           103.661
+Orientation   6
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          U2
+idx           4
+Width         9.7504
+Height        6.8
+Weight        698226896
+X_Co-ordinate 155.745
+Y_Co-ordinate 69.7809
+X/2           160.62
+Y/2           73.1809
+Orientation   0
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          U3
+idx           5
+Width         3
+Height        5
+Weight        698226896
+X_Co-ordinate 141.34
+Y_Co-ordinate 99.8909
+X/2           142.84
+Y/2           102.391
+Orientation   6
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          U4
+idx           6
+Width         5.6
+Height        11.6
+Weight        698226896
+X_Co-ordinate 140.04
+Y_Co-ordinate 105.481
+X/2           142.84
+Y/2           111.281
+Orientation   6
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          U5
+idx           7
+Width         6.6008
+Height        3
+Weight        698226896
+X_Co-ordinate 133.444
+Y_Co-ordinate 107.241
+X/2           136.744
+Y/2           108.741
+Orientation   4
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          U6
+idx           8
+Width         6.6008
+Height        3
+Weight        698226896
+X_Co-ordinate 133.444
+Y_Co-ordinate 112.067
+X/2           136.744
+Y/2           113.567
+Orientation   4
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          U7
+idx           9
+Width         2.6
+Height        5.8
+Weight        698226896
+X_Co-ordinate 166.94
+Y_Co-ordinate 71.5509
+X/2           168.24
+Y/2           74.4509
+Orientation   6
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          U8
+idx           10
+Width         3.2
+Height        8
+Weight        698226896
+X_Co-ordinate 136.953
+Y_Co-ordinate 64.1009
+X/2           138.553
+Y/2           68.1009
+Orientation   6
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          U9
+idx           11
+Width         4.9
+Height        4.6
+Weight        698226896
+X_Co-ordinate 139.628
+Y_Co-ordinate 132.349
+X/2           142.078
+Y/2           134.649
+Orientation   6
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          U10
+idx           12
+Width         2.6
+Height        5.8
+Weight        698226896
+X_Co-ordinate 137.984
+Y_Co-ordinate 125.145
+X/2           139.284
+Y/2           128.045
+Orientation   6
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          U11
+idx           13
+Width         3.8
+Height        15.4
+Weight        698226896
+X_Co-ordinate 171.42
+Y_Co-ordinate 62.9409
+X/2           173.32
+Y/2           70.6409
+Orientation   2
+terminal      0
+fixed         0
+layer         1
+throughhole   1
+NetList       
+
+name          U12
+idx           14
+Width         10.8
+Height        21
+Weight        698226896
+X_Co-ordinate 128.55
+Y_Co-ordinate 80.4609
+X/2           133.95
+Y/2           90.9609
+Orientation   6
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          U13
+idx           15
+Width         6.6008
+Height        3
+Weight        698226896
+X_Co-ordinate 130.65
+Y_Co-ordinate 76.7609
+X/2           133.95
+Y/2           78.2609
+Orientation   0
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          U14
+idx           16
+Width         3
+Height        6.6008
+Weight        698226896
+X_Co-ordinate 124.83
+Y_Co-ordinate 96.0425
+X/2           126.33
+Y/2           99.3429
+Orientation   2
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          U15
+idx           17
+Width         3
+Height        6.6008
+Weight        698226896
+X_Co-ordinate 140.07
+Y_Co-ordinate 81.3105
+X/2           141.57
+Y/2           84.6109
+Orientation   6
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          U16
+idx           18
+Width         3
+Height        6.6008
+Weight        698226896
+X_Co-ordinate 124.83
+Y_Co-ordinate 81.3105
+X/2           126.33
+Y/2           84.6109
+Orientation   6
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          U17
+idx           19
+Width         3
+Height        6.6008
+Weight        698226896
+X_Co-ordinate 124.83
+Y_Co-ordinate 88.9305
+X/2           126.33
+Y/2           92.2309
+Orientation   6
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          U19
+idx           20
+Width         2.6
+Height        5.8
+Weight        698226896
+X_Co-ordinate 149.658
+Y_Co-ordinate 69.0109
+X/2           150.958
+Y/2           71.9109
+Orientation   2
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          U20
+idx           21
+Width         2.6
+Height        5.8
+Weight        698226896
+X_Co-ordinate 152.7
+Y_Co-ordinate 69
+X/2           154
+Y/2           71.9
+Orientation   6
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          U21
+idx           22
+Width         2.6
+Height        5.8
+Weight        698226896
+X_Co-ordinate 149.658
+Y_Co-ordinate 63.31
+X/2           150.958
+Y/2           66.21
+Orientation   2
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          U22
+idx           23
+Width         3
+Height        5
+Weight        698226896
+X_Co-ordinate 153.77
+Y_Co-ordinate 64.26
+X/2           155.27
+Y/2           66.76
+Orientation   6
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          U24
+idx           24
+Width         3.8
+Height        15.4
+Weight        698226896
+X_Co-ordinate 152.055
+Y_Co-ordinate 131.429
+X/2           153.955
+Y/2           139.129
+Orientation   2
+terminal      0
+fixed         1
+layer         1
+throughhole   1
+NetList       
+
+name          U25
+idx           25
+Width         3.8
+Height        15.4
+Weight        698226896
+X_Co-ordinate 169.876
+Y_Co-ordinate 131.409
+X/2           171.776
+Y/2           139.109
+Orientation   6
+terminal      0
+fixed         1
+layer         1
+throughhole   1
+NetList       
+
+name          U27
+idx           26
+Width         4.6
+Height        4.9
+Weight        698226896
+X_Co-ordinate 164.67
+Y_Co-ordinate 63.1109
+X/2           166.97
+Y/2           65.5609
+Orientation   0
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          U28
+idx           27
+Width         5.8
+Height        2.6
+Weight        698226896
+X_Co-ordinate 157.72
+Y_Co-ordinate 64.2609
+X/2           160.62
+Y/2           65.5609
+Orientation   0
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          U29
+idx           28
+Width         8.3
+Height        3.6
+Weight        698226896
+X_Co-ordinate 135.134
+Y_Co-ordinate 120.911
+X/2           139.284
+Y/2           122.711
+Orientation   0
+terminal      0
+fixed         0
+layer         1
+throughhole   1
+NetList       
+
+name          U30
+idx           29
+Width         4.9
+Height        4.6
+Weight        698226896
+X_Co-ordinate 135.056
+Y_Co-ordinate 132.349
+X/2           137.506
+Y/2           134.649
+Orientation   6
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          U31
+idx           30
+Width         2.6
+Height        5.8
+Weight        698226896
+X_Co-ordinate 135.444
+Y_Co-ordinate 125.145
+X/2           136.744
+Y/2           128.045
+Orientation   6
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          U32
+idx           31
+Width         3.6
+Height        51.2
+Weight        698226896
+X_Co-ordinate 146.12
+Y_Co-ordinate 78.0609
+X/2           147.92
+Y/2           103.661
+Orientation   2
+terminal      0
+fixed         0
+layer         1
+throughhole   1
+NetList       
+
+name          U33
+idx           32
+Width         3.6
+Height        51.2
+Weight        698226896
+X_Co-ordinate 171.52
+Y_Co-ordinate 78.0609
+X/2           173.32
+Y/2           103.661
+Orientation   6
+terminal      0
+fixed         0
+layer         1
+throughhole   1
+NetList       
+
+name          U34
+idx           33
+Width         2.6
+Height        5.8
+Weight        698226896
+X_Co-ordinate 135.698
+Y_Co-ordinate 139.877
+X/2           136.998
+Y/2           142.777
+Orientation   6
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          U35
+idx           34
+Width         2.6
+Height        5.8
+Weight        698226896
+X_Co-ordinate 140.524
+Y_Co-ordinate 125.145
+X/2           141.824
+Y/2           128.045
+Orientation   6
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+name          U36
+idx           35
+Width         9.7504
+Height        6.8
+Weight        698226896
+X_Co-ordinate 138.727
+Y_Co-ordinate 138.107
+X/2           143.602
+Y/2           141.507
+Orientation   4
+terminal      0
+fixed         0
+layer         1
+throughhole   0
+NetList       
+
+initial cost: 
+cost: -nan wirelength: 1150.78 inf overlap: 24.164 inf congestion: 0 -nan
+annealing /home/orange3xchicken/Documents/PCB-PR-App/module/PCBBenchmarks/bm10/bm10.routed.kicad_pcb
+calculating initial params...
+calculating initial cost estimate...
+cost: 1.21145 wirelength: 3704.32 0.560624 overlap: 65186.2 0.650822 congestion: 0 -0
+beginning optimization...
+=====0=====
+iteration: 0 time: 1.285e-06 (s) updates/time: 0 time remaining: inf (s) temperature: 0.5 wl weight: 0.5 s samp: 0 sigma update: 0.985 acceptance rate: 0.5 lam rate: 0.5 entraped: 0
+cost: 1.21145 wirelength: 3704.32 0.560624 overlap: 65186.2 0.650822 congestion: 0 -0
+cost: 0.165708 wirelength: 1150.78 0.165454 overlap: 24.164 0.000253317 congestion: 0 -0
+cost: 0.166529 wirelength: 1150.23 0.165376 overlap: 110.007 0.00115323 congestion: 0 -0
+cost: 0.166275 wirelength: 1149.32 0.165245 overlap: 98.2442 0.00102992 congestion: 0 -0
+cost: 0.166275 wirelength: 1149.32 0.165245 overlap: 98.2442 0.00102992 congestion: 0 -0
+cost: 0.166249 wirelength: 1149.14 0.165219 overlap: 98.2442 0.00102992 congestion: 0 -0
+Solution: overlap: 24.164 wirelength: 1150.78
+writing back to db...
